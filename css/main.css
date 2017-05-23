@@ -1,0 +1,94 @@
+* {
+    font-family: 'Droid Sans', sans-serif;
+}
+
+
+/*Body and background*/
+
+body {
+    margin: 0;
+    padding: 0;
+    color: #F3F3F5;
+}
+
+.background {
+    border-bottom: 500px solid #900C3F;
+    border-left: 250px solid transparent;
+    border-right: 0px solid transparent;
+    height: 0;
+    width: 230px;
+    position: relative;
+    left: 450px;
+    bottom: 400px;
+}
+
+.container {
+    padding: 84px;
+}
+
+
+/*PHOTOS & LOGOS*/
+
+.photo {
+    width: 700px;
+    height: 500px;
+    background: url('../img/microscope.jpg');
+    position: relative;
+    left: 150px;
+    top: 100px;
+}
+
+.logo {
+    width: 70px;
+    height: 70px;
+    background: url('../img/logo2.png');
+    position: relative;
+    bottom: 470px;
+    left: 860px;
+}
+
+.logo-laboratoria {
+    width: 200px;
+    height: 200px;
+    background: url('../img/logo1.png');
+    position: relative;
+    left: 358px;
+    bottom: 1192px;
+}
+
+
+/*TEXT*/
+
+h2 {
+    display: block;
+    line-height: 6px;
+    word-spacing: 5px;
+    position: relative;
+    left: 648px;
+    bottom: 820px;
+    font-size: 30px;
+    font-weight: bold;
+}
+
+h3 {
+    display: block;
+    line-height: 6px;
+    word-spacing: 5px;
+    position: relative;
+    left: 670px;
+    bottom: 800px;
+    font-size: 20px;
+    font-weight: 200;
+    color: #FFBE00;
+}
+
+.data p {
+    display: block;
+    line-height: 6px;
+    word-spacing: 5px;
+    position: relative;
+    left: 640px;
+    bottom: 750px;
+    font-size: 15px;
+    font-weight: 200;
+}
